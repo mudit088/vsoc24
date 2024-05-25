@@ -31,7 +31,7 @@ const Front = () => {
         <ParallaxLayer
         sticky={{start: 0.4, end :2.5}}
         >
-        <img src="/baloon1bg.png" className='flex justify-center items-center h-72 align-middle mt-36 ml-12 pl-0 sm:mt-36 sm:ml-96  sm:pl-80 ' alt="" />
+        <img src="/baloon1bg.png" className='flex justify-center items-center h-72 align-middle mt-36 ml-12 pl-0 sm:mt-36 sm:ml-80  sm:pl-80 ' alt="" />
         </ParallaxLayer>
 
         {/* Second Parallax Layer */}
@@ -39,19 +39,23 @@ const Front = () => {
           <animated.div className="h-full flex flex-col items-center justify-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-200 mb-4">Join Us This Summer</h2>
             <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
+              <div className='mt-10'>
+                <ul><li>
+                <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110  transition duration-300">Register</a></li></ul>
               
-              <button className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110 transition duration-300">Register</button>
-              <a href="#" className="flex justify-center sm:py-4 py-4 items-center px-4 sm:px-8  bg-white text-orange-700 rounded-xl hover:scale-110 transition duration-300">
+              </div>
+             
+              {/* <a href="#" className="flex justify-center sm:py-4 py-4 items-center px-4 sm:px-8  bg-white text-orange-700 rounded-xl hover:scale-110 transition duration-300">
                 <img src="/discord.png" className="w-6 mr-2" alt="Discord" />
                 Discord
-              </a>
+              </a> */}
               
-              <div 
+              {/* <div 
                   className="apply-button ml-10" 
                   data-hackathon-slug="YOUR-HACKATHON-SLUG" 
                   data-button-theme="light"
                   style={{height: 44 , width: 312 , marginLeft:10}}
-                ></div>
+                ></div> */}
             </div>
           </animated.div>
         </ParallaxLayer>
