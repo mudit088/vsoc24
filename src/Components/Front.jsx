@@ -25,6 +25,7 @@ const Front = () => {
           <animated.div className="h-full flex flex-col items-center justify-center">
             <h1 className="text-4xl md:text-5xl pl-5 sm:pl-0 lg:text-6xl font-bold text-orange-400 mb-4">Vinyasa Summer of Code</h1>
             <p className="text-xl text-orange-600">Learn, Code, Innovate.</p>
+            
           </animated.div>
         </ParallaxLayer>
 
@@ -39,11 +40,11 @@ const Front = () => {
           <animated.div className="h-full flex flex-col items-center justify-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-200 mb-4">Join Us This Summer</h2>
             <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
-              <div className='mt-10'>
+              {/* <div className='mt-10'>
                 <ul><li>
                 <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110  transition duration-300">Register</a></li></ul>
               
-              </div>
+              </div> */}
              
               {/* <a href="#" className="flex justify-center sm:py-4 py-4 items-center px-4 sm:px-8  bg-white text-orange-700 rounded-xl hover:scale-110 transition duration-300">
                 <img src="/discord.png" className="w-6 mr-2" alt="Discord" />
