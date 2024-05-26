@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-10">
           <img src="/logobg.png" alt="Logo" className="h-16 sm:h-16 " />
         </div>
-        <ul><li><a className='cursor-pointer capitalize text-md font-Vsoc py-2 mt-4 font-bold text-red-700 bg-red-200 px-4 text-xl rounded-lg hover:scale-105 duration-200 sm:hidden' href="">Register</a></li></ul>
+        <ul><li><a className='cursor-pointer capitalize text-md font-Vsoc py-2 mt-4 font-bold text-red-700 bg-red-200 px-4 text-xl rounded-lg hover:scale-105 duration-200 sm:hidden' href="https://vinyasa-summer-of-code-vsoc.devfolio.co/">Register</a></li></ul>
 
         {/* Desktop Navigation */}
         <nav className="hidden sm:flex space-x-8 text-xl font-vsoc pl-36">
