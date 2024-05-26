@@ -26,9 +26,11 @@ const LeaderboardN = () => {
     }, []);
 
     return (
-        <div>
-            <h1 className="text-3xl font-bold mb-4">Leaderboard</h1>
-            {loading ? (
+        <div className='bg-yellow-100'>
+           <h1 className=" font-display text-orange-900 pt-10 sm:pt-36  text-center font-Vsoc  text-3xl font-extrabold leading-none tracking-tight md:text-5xl  lg:text-6xl ">
+       Leaderboard
+      </h1>
+            {/* {loading ? (
                 <p>Loading...</p>
             ) : error ? (
                 <p>Error: {error}</p>
@@ -42,7 +44,9 @@ const LeaderboardN = () => {
                         <p>No participants found in the database.</p>
                     )}
                 </div>
-            )}
+            )} */}
+
+            <h1 className='flex justify-center items-center text-xl pt-10'>Will be updated soon!!</h1>
         </div>
     );
 };
