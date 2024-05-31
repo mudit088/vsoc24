@@ -31,34 +31,47 @@ const Front = () => {
 
         <ParallaxLayer
         sticky={{start: 0.4, end :2.5}}
+        
         >
-        <img src="/baloon1bg.png" className='flex justify-center items-center h-72 align-middle mt-36 ml-12 pl-0 sm:mt-36 sm:ml-80  sm:pl-80 ' alt="" />
+          <div className='flex flex-col justify-center items-center mt-36'>
+          <img src="/baloon1bg.png" className='flex justify-center items-center h-72 align-middle  m-5    ' alt="" />
+          
+
+          <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
+              <div className='m-10 '>
+                <ul><li>
+                <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110 mb-10  transition duration-300">Register</a></li></ul>
+              
+              </div>
+
+              {/* <div className='mt-10'>
+                <ul><li>
+                <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110  transition duration-300">Discord</a></li></ul>
+              
+              </div> */}
+
+              
+             
+             
+              
+              <div 
+                  className="apply-button ml-10" 
+                  data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+                  data-button-theme="light"
+                  style={{height: 44 , width: 312 , marginLeft:10}}
+                ></div>
+            </div>
+            </div>
+        
         </ParallaxLayer>
 
         {/* Second Parallax Layer */}
         <ParallaxLayer offset={1} speed={0.5}>
           <animated.div className="h-full flex flex-col items-center justify-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-200 mb-4">Join Us This Summer</h2>
-            <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
-              {/* <div className='mt-10'>
-                <ul><li>
-                <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110  transition duration-300">Register</a></li></ul>
-              
-              </div> */}
-             
-              {/* <a href="#" className="flex justify-center sm:py-4 py-4 items-center px-4 sm:px-8  bg-white text-orange-700 rounded-xl hover:scale-110 transition duration-300">
-                <img src="/discord.png" className="w-6 mr-2" alt="Discord" />
-                Discord
-              </a> */}
-              
-              {/* <div 
-                  className="apply-button ml-10" 
-                  data-hackathon-slug="YOUR-HACKATHON-SLUG" 
-                  data-button-theme="light"
-                  style={{height: 44 , width: 312 , marginLeft:10}}
-                ></div> */}
-            </div>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-200 mt-20">Join Us This Summer</h2>
+           
           </animated.div>
+          
         </ParallaxLayer>
 
         {/* Background Images with Parallax */}
@@ -71,6 +84,7 @@ const Front = () => {
             className="w-full h-full object-cover"
           />
         </div>
+       
       </ParallaxLayer>
       <ParallaxLayer offset={1} speed={0.3} style={{ zIndex: -1 }}>
         <div className="absolute inset-0">
@@ -81,6 +95,7 @@ const Front = () => {
           />
         </div>
       </ParallaxLayer>
+      
     </div>
       </Parallax>
     </div>
