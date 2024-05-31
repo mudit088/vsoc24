@@ -34,7 +34,7 @@ const Front = () => {
         
         >
           <div className='flex flex-col justify-center items-center mt-36'>
-          <img src="/baloon1bg.png" className='flex justify-center items-center h-72 align-middle  m-5    ' alt="" />
+          <img src="/baloon1bg.png" className='flex justify-center items-center h-52 sm:h-72 align-middle  m-5    ' alt="" />
           
 
           <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
