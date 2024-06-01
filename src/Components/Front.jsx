@@ -56,7 +56,7 @@ const Front = () => {
               
               <div 
                   className="apply-button ml-10" 
-                  data-hackathon-slug="vinyasa-summer-of-code-vsoc" 
+                  data-hackathon-slug="YOUR-HACKATHON-SLUG" 
                   data-button-theme="light"
                   style={{height: 44 , width: 312 , }}
                 ></div>
