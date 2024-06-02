@@ -23,7 +23,7 @@ const Front = () => {
         onClick={()=>ReferenceError.current.scrollTo(2)}
         >
           <animated.div className="h-full flex flex-col items-center justify-center">
-            <h1 className="text-4xl md:text-5xl pl-5 sm:pl-0 lg:text-6xl font-bold text-orange-400 mb-4">Vinyasa Summer of Code</h1>
+            <h1 className="text-4xl md:text-5xl pl-5 sm:pl-0 lg:text-6xl font-bold text-orange-400 mt-20">Vinyasa Summer of Code</h1>
             <p className="text-xl text-orange-600">Learn, Code, Innovate.</p>
             
           </animated.div>
