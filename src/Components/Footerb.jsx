@@ -2,7 +2,7 @@
 "use client";
 
 import { Footer } from "flowbite-react";
-import { BsDiscord, BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsDiscord, BsDribbble, BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 
 export function Footerb() {
   return (
@@ -34,11 +34,11 @@ export function Footerb() {
         <div className="w-full p-5 sm:p-0 flex justify-between bg-gray-800 sm:flex sm:items-center  sm:justify-between">
           <Footer.Copyright className="text-lg   sm:pl-48 sm:py-10" href="#" by="VSOC™ 2024"  />
           <div className=" bg-gray-800 sm:pr-72 pt-1 flex space-x-6  sm:mt-0 sm:justify-center">
-            <Footer.Icon className="" href="#" icon={BsFacebook} />
+            <Footer.Icon className="" href="https://www.facebook.com/people/Vinyasa/61560169798780/?sk=about" icon={BsFacebook} />
             <Footer.Icon href="https://www.instagram.com/vsoc_csd?igsh=MXFlbjdnbmh1bG5sdw==" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
+            <Footer.Icon href="https://x.com/VinyasaCSD" icon={BsTwitter} />
             {/* <Footer.Icon href="#" icon={BsTwitter} /> */}
-            <Footer.Icon href="#" icon={BsDiscord} />
+            <Footer.Icon href="https://www.linkedin.com/company/vinyasacsd" icon={BsLinkedin} />
           </div>
         </div>
       </div>
