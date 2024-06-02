@@ -34,13 +34,18 @@ const Front = () => {
         
         >
           <div className='flex flex-col justify-center items-center mt-36'>
-          <img src="/baloon1bg.png" className='flex justify-center items-center h-52 sm:h-64 align-middle  m-5    ' alt="" />
+          <img src="/baloon1bg.png" className='flex justify-center items-center h-52 sm:h-72 align-middle  m-5    ' alt="" />
           
+
 
           <div className="">
               {/* <div className='m-10 flex justify-center items-center'>
+
+          <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
+              <div className='m-10 '>
+
                 <ul><li>
-                <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110 mb-10   transition duration-300">Register</a></li></ul>
+                <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110 mb-10  transition duration-300">Register</a></li></ul>
               
               </div> */}
 
@@ -50,10 +55,17 @@ const Front = () => {
               
               </div> */}
               <div 
+
                   className="apply-button  ml-10" 
                   data-hackathon-slug="vinyasa-summer-of-code-vsoc" 
                   data-button-theme="light"
                   style={{height: 44 , width: 312 ,marginTop:20}}
+
+                  className="apply-button ml-10" 
+                  data-hackathon-slug="vinyasa-summer-of-code-vsoc" 
+                  data-button-theme="light"
+                  style={{height: 44 , width: 312 , marginLeft:10}}
+
                 ></div>
             </div>
             </div>
@@ -63,7 +75,7 @@ const Front = () => {
         {/* Second Parallax Layer */}
         <ParallaxLayer offset={1} speed={0.5}>
           <animated.div className="h-full flex flex-col items-center justify-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-200 mt-40">Join Us This Summer</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-200 mt-20">Join Us This Summer</h2>
            
           </animated.div>
           
