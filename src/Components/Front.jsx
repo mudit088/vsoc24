@@ -37,28 +37,35 @@ const Front = () => {
           <img src="/baloon1bg.png" className='flex justify-center items-center h-52 sm:h-72 align-middle  m-5    ' alt="" />
           
 
+
+          <div className="">
+              {/* <div className='m-10 flex justify-center items-center'>
+
           <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
               <div className='m-10 '>
+
                 <ul><li>
                 <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110 mb-10  transition duration-300">Register</a></li></ul>
               
-              </div>
+              </div> */}
 
               {/* <div className='mt-10'>
                 <ul><li>
                 <a href='https://vinyasa-summer-of-code-vsoc.devfolio.co/' className="px-8 py-4 bg-white text-orange-700 rounded-xl hover:scale-110  transition duration-300">Discord</a></li></ul>
               
               </div> */}
-
-              
-             
-             
-              
               <div 
+
+                  className="apply-button  ml-10" 
+                  data-hackathon-slug="vinyasa-summer-of-code-vsoc" 
+                  data-button-theme="light"
+                  style={{height: 44 , width: 312 ,marginTop:20}}
+
                   className="apply-button ml-10" 
                   data-hackathon-slug="vinyasa-summer-of-code-vsoc" 
                   data-button-theme="light"
                   style={{height: 44 , width: 312 , marginLeft:10}}
+
                 ></div>
             </div>
             </div>
