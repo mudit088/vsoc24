@@ -26,7 +26,7 @@ const LeaderboardN = () => {
     }, []);
 
     return (
-        <div className='bg-yellow-100'>
+        <div className='bg-yellow-100 h-screen w-screen'>
            <h1 className=" font-display text-orange-900 pt-10 sm:pt-36  text-center font-Vsoc  text-3xl font-extrabold leading-none tracking-tight md:text-5xl  lg:text-6xl ">
        Leaderboard
       </h1>
