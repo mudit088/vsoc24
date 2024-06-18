@@ -6,7 +6,7 @@ import { BsDiscord, BsDribbble, BsFacebook, BsGithub, BsInstagram, BsLinkedin, B
 
 export function Footerb() {
   return (
-    <Footer container className="bg-gray-800">
+    <Footer container className="bg-gray-800 ">
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="flex pl-2 sm:pl-36 ">

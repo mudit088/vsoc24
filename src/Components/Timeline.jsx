@@ -1,7 +1,20 @@
-import React from 'react';
+import {React,useEffect} from 'react'
 import { Chrono } from 'react-chrono';
+import ScrollReveal from 'scrollreveal';
 
 const Timeline = () => {
+  useEffect(() => {
+    const sr = ScrollReveal({
+      reset: false,
+      distance: '80px',
+      duration: 1500,
+      delay: 100
+    });
+    sr.reveal('.toporigin', { origin: 'top' });
+    sr.reveal('.bottomorigin', { origin: 'bottom' });
+    sr.reveal('.leftorigin', { origin: 'left' });
+    sr.reveal('.rightorigin', { origin: 'right' });
+  },[])
   const items = [
     {
       title: "June 4th' 2024",
@@ -50,14 +63,14 @@ const Timeline = () => {
   ];
 
   return (
-    <div name='Timeline' className="h-full w-screen bg-yellow-100">
+    <div name='Timeline' className="h-full w-100vh bg-yellow-100 ">
       <div className="pt-20 sm:pt-36">
-        <h1 className="font-display mb-10 text-orange-900 sm:text-orange-900 text-center font-Vsoc text-3xl sm:text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl lg:mb-24">
+        <h1 className="font-display mb-10 text-orange-900 sm:text-orange-900 text-center font-Vsoc text-3xl sm:text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl lg:mb-24 leftorigin">
           Timeline
         </h1>
       </div>
 
-      <div className="flex justify-center sm:justify-normal items-center">
+      <div className="flex justify-center sm:justify-normal items-center rightorigin">
         {/* Image visible on laptops, hidden on phones */}
         <img
           src="/birds2bg.png"
