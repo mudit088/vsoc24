@@ -25,7 +25,7 @@ export default {
      },
     },
     fontFamily:{
-       vsoc :["Platypi","serif"],
+       vsoc :["Creepster","system-ui"],
     },
   },
  
