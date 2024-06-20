@@ -27,18 +27,19 @@ const Projects = () => {
       <div className='flex justify-center items-center'>
         <h1 className='text-3xl font-vsoc text-red-400 pb-20'>Projects</h1>
       </div>
-      <div>
+      <div className='flex flex-col justify-center items-center'>
         <p className='mb-2 font-semibold pl-4'>Search for projects</p>
         <input
-          className='w-full h-8 border-2 rounded-xl'
+          className='w-96 h-8 border-2 rounded-xl pl-5'
           type="text"
           value={searchTerm}
           onChange={handleSearch}
+          placeholder='Type Project Name'
         />
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-5 gap-8 sm:gap-10 text-center py-8 px-12 sm:px-0 mt-5 m-2'>
+      <div className='grid grid-cols-1 sm:grid-cols-5 gap-6 sm:gap-10 text-center py-4 sm:py-8 px-12 sm:px-0 mt-5 ml-4'>
         {filteredProjects.map((project, index) => (
-          <div key={index} className="shadow-md bg-red-200 w-56 rounded-md duration-200 hover:scale-105 mb-20">
+          <div key={index} className="shadow-md bg-red-200 w-56 rounded-md duration-200 hover:scale-105 mb-10 sm:mb-20">
             <div className="flex justify-center items-center p-4">
               <div>
                 <h1 className="font-bold text-center">{project.Name}</h1>
