@@ -16,7 +16,12 @@ const Navbar = () => {
     <div className='bg-red-200 px-4 sm:px-10 py-2'>
       <div className='flex justify-between items-center'>
         <div>
-          <img className='h-10' src='/logobg.png' alt='Logo' />
+          <ul>
+            <li>
+              <a href="https://www.vsoc.tech/"><img className='h-10' src='/logobg.png' alt='Logo' /></a>
+            </li>
+          </ul>
+          
         </div>
        
         <ul className='flex'>
