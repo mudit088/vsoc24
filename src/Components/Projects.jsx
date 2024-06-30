@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import Footerb from './Footerb';
 import { project } from './data/ProjectData';
