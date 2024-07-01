@@ -1,5 +1,52 @@
 export const teamdata=[
     {
+        "Name": "Karmanya Ravindra",
+          "Github ID": "https://github.com/mudit088",
+          "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
+                  "Imageurl" :"/VsocTeamPics/karma.png",
+          "Your Role": "Team"
+  
+      },
+      {
+        "Name": "Shantanu Swami",
+          "Github ID": "https://github.com/mudit088",
+          "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
+        "Imageurl" :"/VsocTeamPics/shantanu.png",
+          "Your Role": "Team"
+  
+      },
+      {
+        "Name": "Suhas",
+          "Github ID": "https://github.com/mudit088",
+          "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
+                  "Imageurl" :"/VsocTeamPics/suhas.png",
+          "Your Role": "Team"
+  
+      },
+      {
+        "Name": "Kunal Keshav",
+          "Github ID": "https://github.com/krifer8709043128",
+          "LinkedIn ID": "https://www.linkedin.com/in/kunal-keshav-556214264",
+                  "Imageurl" :"/VsocTeamPics/kunal.png",
+          "Your Role": "PR & Outreach Team"
+  
+      },
+      {
+        "Name": "Mudit Srivastava",
+          "Github ID": "https://github.com/mudit088",
+          "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
+                  "Imageurl" :"/VsocTeamPics/mudit.png",
+          "Your Role": "Team"
+  
+      },
+      {
+        "Name": "Anupam",
+        "Github ID": "https://github.com/anupam1308",
+        "LinkedIn ID": "https://www.linkedin.com/in/anupamsingh03",
+                "Imageurl" :"/VsocTeamPics/anupam.png",
+        "Your Role": "Mentor, Program Managers"
+    },
+    {
         "Name": "Madhu Sravanthi ",
         "Github ID": "https://github.com/Madhu0-2",
         "LinkedIn ID": "https://www.linkedin.com/in/madhu-sravanthi-mandali-468825222/",
@@ -164,13 +211,7 @@ export const teamdata=[
                 "Imageurl" :"",
         "Your Role": "Program Managers"
     },
-    {
-        "Name": "Anupam",
-        "Github ID": "https://github.com/anupam1308",
-        "LinkedIn ID": "https://www.linkedin.com/in/anupamsingh03",
-                "Imageurl" :"/VsocTeamPics/anupam.png",
-        "Your Role": "Mentor, Program Managers"
-    },
+   
     {
         "Name": "IFFAH AAFREEN",
         "Github ID": "https://github.com/iffahaafreen",
@@ -227,44 +268,6 @@ export const teamdata=[
                 "Imageurl" :"",
         "Your Role": "Review Team"
     },
-    {
-      "Name": "Mudit Srivastava",
-        "Github ID": "https://github.com/mudit088",
-        "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
-                "Imageurl" :"/VsocTeamPics/mudit.png",
-        "Your Role": "Team"
-
-    },
-    {
-        "Name": "Karmanya Ravindra",
-          "Github ID": "https://github.com/mudit088",
-          "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
-                  "Imageurl" :"/VsocTeamPics/karma.png",
-          "Your Role": "Team"
-  
-      },
-      {
-        "Name": "Shantanu Swami",
-          "Github ID": "https://github.com/mudit088",
-          "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
-        "Imageurl" :"/VsocTeamPics/shantanu.png",
-          "Your Role": "Team"
-  
-      },
-      {
-        "Name": "Suhas",
-          "Github ID": "https://github.com/mudit088",
-          "LinkedIn ID": "https://www.linkedin.com/in/mudit8",
-                  "Imageurl" :"/VsocTeamPics/suhas.png",
-          "Your Role": "Team"
-  
-      },
-      {
-        "Name": "Kunal Keshav",
-          "Github ID": "https://github.com/krifer8709043128",
-          "LinkedIn ID": "https://www.linkedin.com/in/kunal-keshav-556214264",
-                  "Imageurl" :"/VsocTeamPics/kunal.png",
-          "Your Role": "Team"
-  
-      },
+   
+    
 ]

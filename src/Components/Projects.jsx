@@ -24,7 +24,7 @@ const Projects = () => {
   );
 
   return (
-    <div className="h-full w-full mt-10">
+    <div className="h-full w-full pt-10 bg-gray-300">
       <div className='flex justify-center items-center'>
         <h1 className='text-3xl font-vsoc text-red-400 pb-20'>Projects</h1>
       </div>
@@ -40,7 +40,7 @@ const Projects = () => {
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-5 gap-6 sm:gap-10 text-center py-4 sm:py-8 px-12 sm:px-0 mt-5 ml-4'>
         {filteredProjects.map((project, index) => (
-          <div key={index} className="shadow-md bg-red-200 w-56 rounded-md duration-200 hover:scale-105 mb-10 sm:mb-20">
+          <div key={index} className="shadow-md bg-gradient-to-r from-red-100 to-red-300 w-56 rounded-md duration-200 hover:scale-105 mb-10 sm:mb-20">
             <div className="flex justify-center items-center p-4">
               <div>
                 <h1 className="font-bold text-center">{project.Name}</h1>
