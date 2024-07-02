@@ -13,11 +13,11 @@ const Teams = () => {
         {teamdata.map((member, index) => (
           <div
             key={index}
-            className='bg-gradient-to-r from-red-200 to-red-400 p-4 rounded-lg duration-300 transform hover:scale-105 mb-10 shadow-lg hover:shadow-xl transition-shadow'
+            className='bg-gradient-to-r from-red-200 to-red-400 p-4 rounded-lg duration-300 transform hover:scale-105 mb-10  shadow-blue-400 shadow-xl transition-shadow'
           >
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center '>
               <img
-                className='rounded-full h-full w-40 object-cover border-1 border-red-400 duration-300 hover:scale-110 transition-transform'
+                className='rounded-full object-cover  border-2 h-56 border-gray-500 bg-blue-100 duration-300 hover:scale-110 transition-transform'
                 src={member.Imageurl || "/baloon.jpg"}
                 alt={member.Name}
               />
