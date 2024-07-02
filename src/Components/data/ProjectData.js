@@ -1,4 +1,11 @@
 export const project=[
+    {
+        "": "",
+        "Name": "Akshat Sharma  ",
+        "Project Name": "A Travel Management Website using javascript ",
+        "A short abstract under 100 words about your project.": "Our project endeavors to create an effective travel website that evokes a profound sense of wanderlust in users. By harnessing the power of MERN STACK technologies, we aim to develop a comprehensive platform with an array of impressive functionalities that enrich the travel experience.Immersing users in a visual extravaganza, our website will showcase breathtaking imagery, highlighting significant locations worldwide. Through stunning photography, visitors will be transported to these enticing destinations, igniting their innate desire to explore.Our website will cater to the needs of users by offering a wide range of destinations that suit their preferences and budgets. With seamless browsing and booking capabilities, users can effortlessly plan their dream trips, ensuring a memorable experience.Exceptional customer support lies at the heart of our travel website. Our dedicated team will be readily available to assist users at every step, addressing queries and facilitating smooth booking arrangements. We prioritize customer satisfaction and aim to create a personalized and enjoyable journey for each user.",
+        "Github Repository": "https://github.com/Akshat111111/new-and-easy-Travel"
+    },
     
     {
         "": "",
